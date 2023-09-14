@@ -23,6 +23,11 @@ Se você deseja contribuir para este projeto, siga estas etapas simples:
 
    ```bash
    git clone <URL_DO_FORK>
+   ```
+   use este ccomando:
+   ```
+   git clone https://github.com/planta-feliz/ExpoPortfolio
+   ```
 
 ### 🛠 Editando o Projeto
 1. Faça as alterações que você deseja no projeto usando o seu editor de código favorito.
