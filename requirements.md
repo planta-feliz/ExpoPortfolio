@@ -36,7 +36,8 @@ Sumário:
    - [ ] Cumprir regulamentos de privacidade, como a LGPD, e fornecer opções de privacidade para os usuários controlarem suas informações pessoais.
 3. Usabilidade
     - [ ] Projetar uma interface de usuário intuitiva e amigável para facilitar a navegação e a utilização da plataforma.
-  
+4. Desempenho no servidor
+   - [ ] Monitorar e ajustar recursos conforme necessário para evitar sobrecarga do servidor e atrasos no carregamento.
 
 # Elementos iniciais
 1. Páginas de Acesso e Perfil:
