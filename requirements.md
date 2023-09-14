@@ -2,10 +2,11 @@
 
 Sumário:
 - [Requisitos funcionais](#requisitos-funcionais)
-- [Requisitos não funcionais](#requisitos-nao-funcionais)
+- [Requisitos não funcionais](#requisitos-não-funcionais)
+- [Elementos iniciais](#elementos-iniciais)
 
 
-### Requisitos funcionais
+# Requisitos funcionais
 1. Cadastro de usuário
    - [ ] Os usuários devem ser capazes de se cadastrar na plataforma.
    - [ ] O cadastro deve incluir informações como nome, endereço de e-mail e senha para acesso ao perfil.
@@ -26,7 +27,7 @@ Sumário:
    - [ ] Os usuários devem poder seguir outros usuários para acompanhar suas atualizações
    - [ ] Os usuários devem poder curtir, comentar e compartilhar projetos de outros usuários
 
-### Requisitos não funcionais
+# Requisitos não funcionais
 
 1. Segurança
    - [ ] Garantir a segurança dos dados do usuário por meio de práticas adequadas de criptografia e autenticação
@@ -35,3 +36,17 @@ Sumário:
    - [ ] Cumprir regulamentos de privacidade, como a LGPD, e fornecer opções de privacidade para os usuários controlarem suas informações pessoais.
 3. Usabilidade
     - [ ] Projetar uma interface de usuário intuitiva e amigável para facilitar a navegação e a utilização da plataforma.
+  
+
+# Elementos iniciais
+1. Páginas de Acesso e Perfil:
+   - [ ] Página de Registro;
+   - [ ] Página de Login;
+   - [ ] Página do Perfil do Usuário (cada usuário terá seu próprio perfil).
+2. Páginas de Gerenciamento de Projetos
+   - [ ] Página de Adição de Projeto;
+   - [ ] Página de Edição de Projeto
+   - [ ] Página de exibição/visualização de Projeto
+3. Páginas de Erro e Mensagens
+   - [ ] Página 404
+
