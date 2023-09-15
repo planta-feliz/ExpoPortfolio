@@ -2,22 +2,6 @@
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/) [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=103)](https://opensource.org/licenses/mit-license.php)
 
-## Inicializando a aplicação
-
-1. Certifique-se de ter [node](https://nodejs.org/en) instalado em seu ambiente de desenvolvimento.
-2. Instale as depedências com:
-   ```bash
-      npm i
-   ```
-3. Para executar a aplicação, rode:
-   ```bash
-      npm run dev
-   ```
-   ou
-   ```bash
-      yarn dev
-   ```
-O servidor iniciará na porta `3000`, acesse com: `http://localhost:3000`. [nodemon](https://www.npmjs.com/package/nodemon) é utilizado para que o servidor seja reiniciado automaticamente.
 
 
 
