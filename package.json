@@ -1,0 +1,19 @@
+{
+  "name": "expoportfolio",
+  "version": "1.0.0",
+  "description": "[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/) [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=103)](https://opensource.org/licenses/mit-license.php)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/planta-feliz/ExpoPortfolio.git"
+  },
+  "author": "Grow together creators",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/planta-feliz/ExpoPortfolio/issues"
+  },
+  "homepage": "https://github.com/planta-feliz/ExpoPortfolio#readme"
+}
