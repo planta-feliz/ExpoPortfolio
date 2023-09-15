@@ -1,0 +1,34 @@
+{
+  "name": "expoportfolio",
+  "version": "1.0.0",
+  "description": "[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/) [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=103)](https://opensource.org/licenses/mit-license.php)",
+  "main": "./src/app/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon http-server ./src/app/devServer.http.js",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/planta-feliz/ExpoPortfolio.git"
+  },
+  "author": "Grow together creators",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/planta-feliz/ExpoPortfolio/issues"
+  },
+  "homepage": "https://github.com/planta-feliz/ExpoPortfolio#readme",
+  "devDependencies": {
+    "eslint": "^8.49.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "http-server": "^14.1.1",
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.3",
+    "sass": "^1.67.0"
+  },
+  "dependencies": {
+  },
+  "type": "module"
+}
