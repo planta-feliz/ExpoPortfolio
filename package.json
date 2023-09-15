@@ -5,7 +5,7 @@
   "main": "./src/app/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon http-server ./src/app/devServer.http.js",
+    "dev": "nodemon .",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
     "format": "prettier --write src/"
   },
@@ -22,7 +22,6 @@
   "devDependencies": {
     "eslint": "^8.49.0",
     "eslint-plugin-vue": "^9.17.0",
-    "http-server": "^14.1.1",
     "node-sass": "^9.0.0",
     "nodemon": "^3.0.1",
     "prettier": "^3.0.3",
