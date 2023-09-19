@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/) [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.png?v=103)](https://opensource.org/licenses/mit-license.php)",
   "main": "app.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-docs": "nodemon dev.docs/app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/planta-feliz/ExpoPortfolio/issues"
   },
-  "homepage": "https://github.com/planta-feliz/ExpoPortfolio#readme"
+  "homepage": "https://github.com/planta-feliz/ExpoPortfolio#readme",
+  "dependencies": {
+    "node-sass": "^9.0.0",
+    "sass": "^1.67.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "nodemon": "^3.0.1"
+  }
 }
