@@ -7,8 +7,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/signIn.css">
+
 </head>
 <body>
-    
+    <main>
+        <div id="card">
+            <div class="loginForm">
+                <h1>Login</h1>
+                <Form>
+                    <input type="email" name="email" id="email" placeholder="Email">
+                    <input type="password" name="password" id="password" placeholder="Senha">
+                    <span>
+                        <span>
+                            <input type="checkbox" name="rememberPassword" id="rememberPassword">
+                            <label for="rememberPassword">Lembrar Senha</label>
+                        </span>
+                        <a href="#">Esqueceu a senha?</a>
+                    </span>
+                    <input type="button" value="Entrar">
+
+                </Form>
+            </div>
+            <div class="signUp"> <!-- if don't have an account -->
+                <h1>Seja bem-vindo!</h1>
+                <img class="logo" src="https://github.com/planta-feliz.png">
+                <a href="./signUp.html">Cadastre-se</a>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
