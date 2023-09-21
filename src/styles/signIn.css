@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    width: 100vw; height: 100vh;
+}
+
+main{
+    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw; height: 100vh;
+}
+
+#card {
+    background-color: yellow;
+    width: 80vw;
+    height: 80vh;
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
+    border-radius: .25rem;
+}
+
+.loginForm Form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.signUp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 9rem;
+    height: auto;
+}
+
