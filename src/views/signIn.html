@@ -1,28 +1,33 @@
-
 <!-- Login page -->
 
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    
+
     <link rel="stylesheet" href="../styles/reset.css">
     <link rel="stylesheet" href="../styles/signIn.css">
 
+    <!-- Icones -->
+
+    <script src="https://kit.fontawesome.com/7c3aef27c1.js" crossorigin="anonymous"></script>
+
 </head>
+
 <body>
     <main>
         <div class="blueBall"></div>
         <div class="purpleBall"></div>
         <div class="greenBall"></div>
         <div id="card">
-            <div class="loginForm">
-                <h1>Login</h1>
-                <Form>
-                    <input type="email" name="email" id="email" placeholder="Email">
-                    <input type="password" name="password" id="password" placeholder="Senha">
+            <div class="login">
+                <Form class="loginForm">
+                    <h1 class="underline">Login</h1>
+                    <input class="input-dados" type="email" name="email" id="email" placeholder="Email">
+                    <input class="input-dados" type="password" name="password" id="password" placeholder="Senha">
                     <span>
                         <span>
                             <input type="checkbox" name="rememberPassword" id="rememberPassword">
@@ -30,9 +35,24 @@
                         </span>
                         <a href="#">Esqueceu a senha?</a>
                     </span>
-                    <input type="button" value="Entrar">
-
+                    <button type="submit" value="enviar" class="btn-entrar">Entrar</button>
                 </Form>
+                <div class="social-buttons"> 
+                    <div class="or-divider">
+                        <div class="line"></div>
+                        <div class="or-text">or</div>
+                        <div class="line"></div>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-brands fa-github"></i>
+                        <i class="fa-brands fa-google"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-apple"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="linha">
+                <div></div>
             </div>
             <div class="signUp"> <!-- if don't have an account -->
                 <h1>Seja bem-vindo!</h1>
@@ -42,4 +62,5 @@
         </div>
     </main>
 </body>
+
 </html>
