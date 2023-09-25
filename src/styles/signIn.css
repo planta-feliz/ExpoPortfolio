@@ -38,10 +38,10 @@ main {
 .purpleBall {
     position: fixed;
     position: absolute;
-    width: 29vw;
-    height: 75vh;
+    width: 35vw;
+    height: 35vw;
     border-radius: 50%;
-    background-color: #8237BD;
+    background-color: rgba(130, 55, 189, .93);
     right: 20vw;
     top: 5vh;
     z-index: 2;
@@ -51,12 +51,12 @@ main {
 .greenBall {
     position: fixed;
     position: absolute;
-    width: 17vw;
+    width: 44vh;
     height: 44vh;
-    box-shadow: 0px 0px 6px 10px #02182060;
+    box-shadow: -6px 6px 5px 0px #02182060;
     border-radius: 50%;
     background-color: #087453;
-    left: 18vw;
+    left: 10vw;
     bottom: 7vh;
     z-index: 3;
 }
@@ -65,10 +65,10 @@ main {
 
 #card {
     box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.404);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(2px);
     z-index: 4;
     background-color: #b9b9b97c;
-    width: 80%;
+    width: 70%;
     height: 80vh;
 
     display: flex;
@@ -155,7 +155,6 @@ main {
 }
 
 .loginForm .underline {
-    border-bottom: 2px solid;
     padding-bottom: 10px;
     width: 70%;
 }
@@ -168,6 +167,14 @@ main {
     border: 1px solid #FFF;
     background: rgba(217, 217, 217, 0.00);
     color: white;
+    outline: none;
+}
+
+#forgot-password {
+    decoration: none;
+    color: #cccccc;
+    text-shadow: 0px 0px 1px #ccc;
+    font-size: 84%;
 }
 
 .btn-entrar {

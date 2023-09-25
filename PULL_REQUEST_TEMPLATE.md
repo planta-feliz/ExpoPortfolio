@@ -6,8 +6,9 @@
 
 - [ ] Correção de bug
 - [ ] Nova funcionalidade
-- [ ] Melhoria de desempenho
+- [ ] Melhoria de desempenho, fatoração
 - [ ] Documentação
+- [ ] Implementação (especifique o módulo da aplicação)
 - [ ] Outro (especifique)
 
 ## Testes Realizados
