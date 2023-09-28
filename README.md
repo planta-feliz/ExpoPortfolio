@@ -4,6 +4,46 @@
 
 
 
+## 🚀💻 Iniciando servidor e ambiente de desenolvimento:
+
+Após clonar o repositório (veja o [guia de contribuição](####Guia-1)), Instale as dependências requeridas em [`package.json`](./package.json), e utilize `start:dev` para inicializar. Após isso, você deve receber retornos de informações sobre o servidor no próprio terminal, incluindo a **url** onde o projeto estará rodando.
+
+```ps1
+   npm i
+   npm run start:dev
+```
+
+
+## 🔨📜 Transpirando o código (Sass, TypeScript)
+
+### Para desenvolvimento e contribuição:
+Por padrão algumas partes são construídas com typescript. A transpiração é feita de forma automática nos conformes de `./tsconfig.json` com [tsc](https://www.typescriptlang.org/docs/handbook/compiler-options.html).
+
+#### 🎨 Sass
+- Caso queira utiliar sass nas folhas de estilo, use em paralelo os scripts `sass-compiler:dev` e `start:dev` na linha de comando (utilize uma instância do terminal para cada script).
+
+- Caso queira compilar para produção, basta executar `npm run sass-compiler:build` e seguir com as configurações.
+
+**Scripts de `package.json`:**
+
+```json
+   // [...]
+ "scripts": {
+    "sass-compiler:dev": "nodemon build/sass-compiler",
+    "sass-compiler:build": "node build/sass-compiler",
+    "build": "npm run sass-compiler:build && nest build",
+    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "start": "nest start",
+    "start:dev": "npm run sass-compiler:dev && nest start --watch",
+   // [...]
+   }
+
+```
+
+**por padrão o nome da folha de estilo deve iniciar com underline: "_". Ex.: arquivo `style.sass` deve ser nomeado para `_style.sass`**
+
+
+#### Guia 1
 ## 🍂🪐 Contribuindo para este projeto
 **Por favor, veja os [requisitos desta aplicação](./requirements.md) para se manter atualizado sobre o projeto**
 
@@ -56,3 +96,7 @@ git push origin main
 5. Aguarde a revisão e aprovação dos mantenedores do projeto.
 
 **✨ Pronto! Você contribuiu com sucesso para este projeto. Obrigado por sua ajuda!**
+
+<hr>
+
+<p align="center">Developed with ♥ by ExpoPortfolio maintainers</p>
