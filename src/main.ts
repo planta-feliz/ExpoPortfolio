@@ -25,7 +25,7 @@ async function bootstrap() {
   });
 
   // Constante recebe instância da aplicação Nest usando o adaptador Fastify ( https://fastify.dev/ )
-  const app = await NestFactory.create<NestFastifyApplication>(
+   const app = await NestFactory.create<NestFastifyApplication>(
     AppModule, // Módulo principal em './app.module'
     new FastifyAdapter(),
   );
