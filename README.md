@@ -14,7 +14,7 @@ Após clonar o repositório (veja o [guia de contribuição](####Guia-1)), Insta
 ```
 
 
-## 🔨📜 Transpirando o código (Sass, TypeScript)
+## 🔨📜 Transpirando o código.
 
 ### Para desenvolvimento e contribuição:
 Por padrão algumas partes são construídas com typescript. A transpiração é feita de forma automática nos conformes de `./tsconfig.json` com [tsc](https://www.typescriptlang.org/docs/handbook/compiler-options.html).
