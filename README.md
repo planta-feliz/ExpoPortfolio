@@ -27,17 +27,18 @@ Por padrão algumas partes são construídas com typescript. A transpiração é
 **Scripts de `package.json`:**
 
 ```json
+   // package.json
    // [...]
- "scripts": {
-    "sass-compiler:dev": "nodemon build/sass-compiler",
-    "sass-compiler:build": "node build/sass-compiler",
-    "build": "npm run sass-compiler:build && nest build",
-    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
-    "start": "nest start",
-    "start:dev": "npm run sass-compiler:dev && nest start --watch",
+    "scripts": {
+       "sass-compiler:dev": "nodemon build/sass-compiler",
+       "sass-compiler:build": "node build/sass-compiler",
+       "build": "npm run sass-compiler:build && nest build",
+       "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+       "start": "nest start",
+       "start:dev": "npm run sass-compiler:dev && nest start --watch",
    // [...]
    }
-
+   // [...]
 ```
 
 **por padrão o nome da folha de estilo deve iniciar com underline: "_". Ex.: arquivo `style.sass` deve ser nomeado para `_style.sass`**
