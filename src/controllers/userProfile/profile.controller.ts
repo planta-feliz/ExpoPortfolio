@@ -5,11 +5,9 @@ import { ProfileService } from '../../services/userProfile/profile.service';
 export class ProfileController {
   constructor(private readonly profileService: ProfileService) {}
 
-    @Get("user")
-    @Render('profile.hbs')
-    root() {
-        return this.profileService.index();
-    }
-  
-
+  @Get('/user')
+  @Render('profile.hbs')
+  getHello() {
+    return this.profileService.index();
+  }
 }
