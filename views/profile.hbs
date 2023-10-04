@@ -1,20 +1,79 @@
 
-<!-- User Profile Page -->
+{{!-- User Profile Page --}}
 
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{username}</title>
+    <title>{User}</title>
 
-      <link rel="stylesheet" href="../public/styles/_profile.css">
     <link rel="stylesheet" href="../public/styles/root.css">
+    <link rel="stylesheet" href="../public/styles/_profile.css">
 
 </head>
 <body>
-    <main>
+    <header class="wp">
+        <div id="userdata">
+            <h1 class="name">{Name Loremn}</h1>
+            <p class="username">@{username}</p>
+        </div>
+
+        <a href="#">Entrar em contato</a>
+    </header>
+    <main class="wp">
+
+        <ul class="tags">
+            <li>Medicine</li>
+            <li>Software Engineering</li>
+            <li>Open Source</li>
+            <li>Rust</li>
+            <li>Linux</li>
+        </ul>
+
+        <div id="bio">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam laudantium mollitia odit quae, id molestiae modi quia, inventore voluptas voluptate ut. Est voluptatem et libero.</p>
+        </div>
+
+
+        <div id="projects">
+            <h1>Projetos</h1>
+            <div id="projectsLayout">
+                <div class="project">
+                    <div class="img">
+                        <img src="https://picsum.photos/800" alt="{{title}}">
+                    </div>
+                    <div class="info">
+                        <h1>Gatito API</h1>
+                        <p>The description is some description :3</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="img">
+                        <img src="https://picsum.photos/800" alt="{{title}}">
+                    </div>
+                    <div class="info">
+                        <h1>Calculadora em C++</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="img">
+                        <img src="https://picsum.photos/800" alt="{{title}}">
+                    </div>
+                    <div class="info">
+                        <h1>Dicionário</h1>
+                        <p>The sit, adipisicing elit amet consectetur lorem ipsum dolor</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
 
     </main>
+    <footer class="wp">
+        <span>{Name} • @{username}</span>
+    </footer>
 </body>
 </html>
